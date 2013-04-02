@@ -1,0 +1,25 @@
+{
+  "name": "experiments",
+  "version": "0.0.0",
+  "description": "Experiments ===========",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xzyfer/experiments.git"
+  },
+  "author": "xzyfer",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "e97d2685c282c44e2019dc545c5071f66123072a",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "mocha": "~1.8.2",
+    "grunt-cafe-mocha": "~0.1.1",
+    "shelljs": "~0.1.2",
+    "should": "~1.2.2",
+    "semver": "~1.1.4"
+  }
+}
