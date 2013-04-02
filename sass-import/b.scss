@@ -1,4 +1,5 @@
 @import 'a';
+@import '_d';
 
 $green: 'green';
 $blue: 'white' !default;
@@ -6,3 +7,4 @@ $blue: 'white' !default;
 .red { color: $red; }
 .green { color: $green; }
 .blue { color: $blue; }
+.yellow { color: $yellow; }

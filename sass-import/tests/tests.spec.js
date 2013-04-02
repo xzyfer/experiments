@@ -30,7 +30,7 @@ describe('Sass Import', function() {
             shell.exec(command, { silent: true }).output
                 .trim()
                 .should
-                .equal('.red{color:"red"}.green{color:"white"}.blue{color:"white"}.red{color:"red"}.green{color:"green"}.blue{color:"white"}');
+                .equal('.red{color:"red"}.green{color:"white"}.blue{color:"white"}.yellow{color:"yellow"}.red{color:"red"}.green{color:"green"}.blue{color:"white"}.yellow{color:"yellow"}');
         });
     });
 
@@ -40,7 +40,7 @@ describe('Sass Import', function() {
             shell.exec(command, { silent: true }).output
                 .trim()
                 .should
-                .equal('.red{color:"red"}.green{color:"white"}.blue{color:"white"}.red{color:"red"}.green{color:"green"}.blue{color:"white"}.red{color:"red"}.green{color:"green"}.blue{color:"blue"}');
+                .equal('.red{color:"red"}.green{color:"white"}.blue{color:"white"}.yellow{color:"yellow"}.red{color:"red"}.green{color:"green"}.blue{color:"white"}.yellow{color:"yellow"}.red{color:"red"}.green{color:"green"}.blue{color:"blue"}.yellow{color:"yellow"}');
         });
     });
 });
