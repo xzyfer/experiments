@@ -1,0 +1,15 @@
+@function red() {
+    @return red;
+}
+
+.red {
+    color: red();
+}
+
+@function red() {
+    @return blue;
+}
+
+.blue {
+    color: red();
+}
