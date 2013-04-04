@@ -1,0 +1,15 @@
+@mixin red() {
+    color: red;
+}
+
+.red {
+    @include red();
+}
+
+@mixin red() {
+    color: blue;
+}
+
+.blue {
+    @include red();
+}

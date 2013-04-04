@@ -11,13 +11,6 @@ module.exports = function(grunt) {
                   , require: ['should']
                 }
             }
-          , 'sass-import': {
-                src: 'sass-import/tests/*.spec.js'
-              , options: {
-                    ui: 'bdd'
-                  , require: ['should']
-                }
-            }
         }
     });
 
